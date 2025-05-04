@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getUser } from './auth';
 
 const api = axios.create({
-  baseURL: 'tutam9-dimasanandasutiardi.vercel.app',
+  baseURL: 'https://tutam9-dimasanandasutiardi.vercel.app',
   headers: {'Content-Type': 'application/json'}
 });
 
